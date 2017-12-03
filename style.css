@@ -6,48 +6,48 @@
 		font-family: "Century Gothic", "Verdana","Arial";
 	}
 
-	
+
 	img {
 		border:none;
 	}
-	
+
 	p {
 		font-size :11px;
 		line-height: 17px;
 	}
-	
+
 	.erreur {
 		font-size :11px;
 		line-height: 17px;
 		color:#993333;
 	}
-	
+
 	p a {
 		color:#666;
  		text-decoration:none;
  	}
-	
+
 	p .top {
 		color:#aaa;
  		text-decoration:none;
 	}
-	
+
 	p .top:hover {
 		color:#444;
  		text-decoration:none;
 	}
-	
+
 	p a:hover {
 		color:#222;
  		text-decoration:underline;
 	}
-	
+
 	html {overflow-y: scroll;}
-	
+
 	/* BLOCS PRINCIPAUX -------------------------------------------------------*/
-	
-	
-		
+
+
+
 		#coteD {
 			width:50%;
 			background-repeat:no-repeat;
@@ -88,7 +88,7 @@
 			-webkit-background-size: 100% 100%;
 			background-size: 100% 100%;
 		}
-		
+
 		#main {
 			width:900px;
 			padding:30px 20px 0px 20px;
@@ -97,23 +97,23 @@
 			border-style: solid;
 			border-color: #aaa;
 		}
-	
+
 	/* HOME PAGE ----------------------------------------------------------------------*/
-	 
+
 		#home {
 			margin:0px;
 			height:100%;
 			width:100%;
 			position:absolute;
-						
-			
+
+
 			/* Anciens navigateurs */
 			background: #0170ba url("gradient-bghome.png") repeat-x top;
 			-o-background-size: 100% 100%;
 			-moz-background-size: 100% 100%;
 			-webkit-background-size: 100% 100%;
 			background-size: 100% 100%;
-			
+
 			/* Internet Explorer */
 			*background: #0170ba;
 			background: #0170ba\0/;
@@ -121,9 +121,9 @@
 			/* Navigateurs récents */
 			background-image: -moz-linear-gradient(top,#0170ba,#3399dd 25%,#3399dd 75%,#0170ba);
 			background-image: -webkit-gradient(linear,left top, left bottom,from(#0170ba),to(#0170ba),color-stop(0.25, #3399dd),color-stop(0.75, #3399dd));
-			
+
 		}
-		
+
 		#stamp {
 			position:absolute;
 			top:50%;
@@ -136,22 +136,22 @@
 			text-align:center;
 			font-size:11px;
 		}
-		
-		
+
+
 	/* LIENS ---------------------------------------------------------------------------*/
-	
-	
-	
+
+
+
 		a.lien-bloc {
 			text-decoration:none;
 			border-width:0px;
 		}
-		
-		
-		
-	/* BANDEAU ENTETE ------------------------------------------------------------*/		
-		
-		
+
+
+
+	/* BANDEAU ENTETE ------------------------------------------------------------*/
+
+
 		#bloc-titre {
 			display:block;
 			background:#333 url('/pics/fond-entete-V2.jpg') top left no-repeat;
@@ -163,37 +163,37 @@
 			margin-left:-490px;
 			height:100px;
 		}
-		
-		
-	/* MENU PRINCIPAL -------------------------------------------------------*/		
-	
-		
+
+
+	/* MENU PRINCIPAL -------------------------------------------------------*/
+
+
 		#sep {
 			width:939px;
 			height:20px;
 			margin:0px;
 			background-color:#eee;
-			position: relative; 
+			position: relative;
 			left:50%;
 			margin-left: -470px;
 		}
-		
-		
+
+
 		#sep ul{
-			
+
 			list-style-type: none;
 			position:absolute;
 			left:270px;
-			
+
 		}
-		
+
 		#sep ul li {
 			float:left;
 		}
-		
-		
+
+
 		#case-menu {
-			
+
 			font-size:11px;
 			height:20px;
 			line-height:19px;
@@ -202,11 +202,11 @@
 			padding:0 15px 0px 15px;
 			-moz-box-shadow: 0px 20px 10px -10px rgba(255,255,255,0.3) inset;
 			background: -webkit-gradient(linear, 0 0, 0 100%, from(#3399dd), to(#0170ba));
-			
-		}
-		
 
-		
+		}
+
+
+
 		#sep ul li a {
 			font-size:11px;
 			color:#333;
@@ -218,10 +218,10 @@
 			text-align:center;
 			border-style:dotted;
 			border-color: #ddd;
-			border-width:0px 1px 0px 0px;				
+			border-width:0px 1px 0px 0px;
 		}
-		
-		
+
+
 		#sep ul li a:hover {
 			border-style:solid;
 			border-color: #eee;
@@ -234,15 +234,15 @@
 			background: -webkit-gradient(linear, 0 0, 0 100%, from(#3399dd), to(#0170ba));
 		}
 
-	/*--TEXTE ET PARAGRAPHES ------------------------------------------------------------------------------------------*/	
-			
+	/*--TEXTE ET PARAGRAPHES ------------------------------------------------------------------------------------------*/
+
 	/* texte descriptif */
-	
+
 	#main .text {
 		font-size:11px;
 		line-height: 18px;
 	}
-	
+
 	.text-pres {
 		margin-top:2px;
 		border-width:0px 0px 1px 0px;
@@ -251,23 +251,23 @@
 		padding:1px 1px 7px 1px;
 		margin-bottom: 20px;
 	}
-	
+
 	.bold {font-weight:bold;}
 	.top {padding-left:1px;margin-left: 3px;}
-	
+
 	/* titres */
 	.t1 {
 		display:block;
 		background:#FFF url('pics/pucet1.png') center left no-repeat;
 		padding-left:15px;
 		color:#333;
-		font-size:16px;	
+		font-size:16px;
 		margin-bottom: 15px;
 		border-style: solid;
 		border-width: 0px 0px 1px 0px;
 		border-color: #eee;
 	}
-	
+
 	.t2 {
 		color:#FFCB7C;
 		font-size:11px;
@@ -276,7 +276,7 @@
 		background-color: #888;
 		padding:4px 0px 4px 7px;
 		margin-bottom: 10px;
-		
+
  		/*BORDS ARONDIS */
  		-moz-border-radius : 0.4em;
  		-webkit-border-radius : 0.4em;
@@ -284,33 +284,33 @@
         /* DEGRADE */
         -moz-box-shadow: 0px 20px 10px -10px rgba(255,255,255,0.3) inset;
         background: -webkit-gradient(linear, 0 0, 0 100%, from(#AAA), to(#888));
-        
+
     }
-	
+
 	.line-title {
 		position:relative;
 		top:1px;
 	}
-	
-	
+
+
 	/* LISTES */
-	
+
 	.list-serv {
 		list-style-type:none;
 		margin:5px 0px 10px 10px;
 		font-size:11px;
-		
+
 	}
-	
+
 	.list-serv li{
 		padding-left:10px;
 		background:#FFF url('pics/pucem.jpg') center left no-repeat;
 		height:17px;
 	}
-	
-	
+
+
 	/* PIED DE PAGE ---------------------------------------------------------------------------------------*/
-	
+
 	#footer {
 		overflow: hidden;
 		clear:both;
@@ -324,14 +324,14 @@
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-	
+
 	#footer a {
 		text-decoration:none;
 		color:#ccc;
 		margin-left : 3px;
 		margin-right: 3px;
 	}
-	
+
 	#footer a:hover {
 		text-decoration:underline;
 		color:#FFF;
@@ -342,12 +342,12 @@
  		top:1px;
  		margin-left: 2px;
  	}
- 
- 
+
+
  /* MISE EN PAGE REALISATIONS ----------------------------------------------------------------------------------*/
- 
- 
- 
+
+
+
  /* elements de banniere principale*/
  	.ban-workw {
  		width:648px;
@@ -370,7 +370,7 @@
  		margin-bottom: 20px;
  		overflow:hidden;
  	}
- 	
+
  	.ban-workw .imgt, .ban-workp .imgt, .ban-worko .imgt {
  		height:238px;
  		width:284px;
@@ -379,7 +379,7 @@
  		left:7px;
  		overflow:hidden;
  	}
- 	
+
  	.ban-actu {
  		position:relative;
  		left:50%;
@@ -390,7 +390,7 @@
  		margin-bottom: 25px;
  		overflow:hidden;
  	}
- 	
+
  	.ban-actu .imgt{
  		height:183px;
  		width:482px;
@@ -399,20 +399,20 @@
  		left:4px;
  		overflow:hidden;
  	}
- 	
+
  	/* HACK IE 6 *************/
  	* html .imgt {
  		top : -150px;
  	}
- 	
- 	
+
+
  	/*************************/
 	.desc {
  		float:right;
  		width:330px;
  		margin-right: 20px;
   	}
- 
+
  	.desc p{
  		font-size: 11px;
  		margin-top:5px;
@@ -440,18 +440,18 @@
 		color:#CCC;
 		font-weight: bold;
 	}
-	
+
 	.ban-actu .ban-link a:hover {
 		text-decoration:underline;
 		color:#111;
-	
+
 	}
-	
+
 	.ban-workw .ban-link a:hover, .ban-workp .ban-link a:hover, .ban-worko .ban-link a:hover{
 		text-decoration:none;
 		color:#FFF;
 	}
- 	
+
 /* DIFFERENTS BLOCS DU CONTENU */
 
 /* TEXTE ACCUEIL */
@@ -463,7 +463,7 @@
 
 /* MENU */
 #menu-rea {
-	margin-top: 15px;
+	margin-top:10px;
 	list-style-type: none;
 	text-align:left;
 }
@@ -547,18 +547,18 @@
 
 
 /* CONTACT----------------------------------------------------------------------------------*/
- 
+
  .form {
  	margin-left: 2px;
  }
- 
+
  .form td{
  	font-size:11px;
  }
  .form tr {
 	 margin-bottom: 3px;
  }
- 
+
  .form input, .form textarea{
  	border:0px;
  	background-color:#ecc09c;
@@ -573,16 +573,3 @@
  	border-color:#EEE;
  	width:300px;
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
