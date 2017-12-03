@@ -1,0 +1,2 @@
+<?php ?> 
+<div id="pied"><a href=''>www.nemo-fr.com</a> © <a href='http://www.nemo-fr.com'>Nemo</a> all rights reserved | <a href="index.php">Nos configs</a> | <a href="services.php">Nos services</a> | <a href="info.php">Aide</a> | <a href="contact.php">Contact</a> | <a href="admin/index.php">Administration</a></div>

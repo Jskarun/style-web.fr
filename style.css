@@ -1,0 +1,588 @@
+/*STYLES*/
+
+	*{
+		margin:0px;
+		padding:0px;
+		font-family: "Century Gothic", "Verdana","Arial";
+	}
+
+	
+	img {
+		border:none;
+	}
+	
+	p {
+		font-size :11px;
+		line-height: 17px;
+	}
+	
+	.erreur {
+		font-size :11px;
+		line-height: 17px;
+		color:#993333;
+	}
+	
+	p a {
+		color:#666;
+ 		text-decoration:none;
+ 	}
+	
+	p .top {
+		color:#aaa;
+ 		text-decoration:none;
+	}
+	
+	p .top:hover {
+		color:#444;
+ 		text-decoration:none;
+	}
+	
+	p a:hover {
+		color:#222;
+ 		text-decoration:underline;
+	}
+	
+	html {overflow-y: scroll;}
+	
+	/* BLOCS PRINCIPAUX -------------------------------------------------------*/
+	
+	
+		
+		#coteD {
+			width:50%;
+			background-repeat:no-repeat;
+			border-width:1px 0px 0px 0px;
+			border-color:#aaa;
+			border-style:solid;
+			/* FIREFOX & SAFARI */
+			background-image: -moz-linear-gradient(left,#0170ba,#3399dd 70%,#0170ba);
+			background-image: -webkit-gradient(linear,left top, right top,from(#0170ba),to(#0170ba),color-stop(0.7, #3399dd));
+			/* IE */
+			*background: #0170ba;
+		    background: #0170ba\0/;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="pics/gradient-bgg.png", sizingMethod="scale");
+			/* Anciens navigateurs */
+			background: #0170ba url("pics/gradient-bgg.png") repeat-y left;
+			-o-background-size: 100% 100%;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		#coteG {
+			width:50%;
+			background-repeat:no-repeat;
+			border-width:1px 0px 0px 0px;
+			border-color:#aaa;
+			border-style:solid;
+			/* FIREFOX & SAFARI */
+			background-image: -moz-linear-gradient(left,#0170ba,#3399dd 30%,#0170ba);
+			background-image: -webkit-gradient(linear,left top, right top,from(#0170ba),to(#0170ba),color-stop(0.3, #3399dd));
+			/* IE */
+			*background: #0170ba;
+			background: #0170ba\0/;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="pics/gradient-bgd.png", sizingMethod="scale");
+			/* Anciens navigateurs */
+			background: #0170ba url("pics/gradient-bgd.png") repeat-y left;
+			-o-background-size: 100% 100%;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		
+		#main {
+			width:900px;
+			padding:30px 20px 0px 20px;
+			position:relative;
+			border-width:1px 0px 0px 0px;
+			border-style: solid;
+			border-color: #aaa;
+		}
+	
+	/* HOME PAGE ----------------------------------------------------------------------*/
+	 
+		#home {
+			margin:0px;
+			height:100%;
+			width:100%;
+			position:absolute;
+						
+			
+			/* Anciens navigateurs */
+			background: #0170ba url("gradient-bghome.png") repeat-x top;
+			-o-background-size: 100% 100%;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+			
+			/* Internet Explorer */
+			*background: #0170ba;
+			background: #0170ba\0/;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="pics/gradient-bghome.png", sizingMethod="scale");
+			/* Navigateurs récents */
+			background-image: -moz-linear-gradient(top,#0170ba,#3399dd 25%,#3399dd 75%,#0170ba);
+			background-image: -webkit-gradient(linear,left top, left bottom,from(#0170ba),to(#0170ba),color-stop(0.25, #3399dd),color-stop(0.75, #3399dd));
+			
+		}
+		
+		#stamp {
+			position:absolute;
+			top:50%;
+			left:50%;
+			height:270px;
+			width:617px;
+			margin-top:-135px;
+			margin-left:-308px;
+			background-color: #3399dd;
+			text-align:center;
+			font-size:11px;
+		}
+		
+		
+	/* LIENS ---------------------------------------------------------------------------*/
+	
+	
+	
+		a.lien-bloc {
+			text-decoration:none;
+			border-width:0px;
+		}
+		
+		
+		
+	/* BANDEAU ENTETE ------------------------------------------------------------*/		
+		
+		
+		#bloc-titre {
+			display:block;
+			background:#333 url('/pics/fond-entete-V2.jpg') top left no-repeat;
+			font-size:8px;
+			color:#DDD;
+			position:relative;
+			width:980px;
+			left:50%;
+			margin-left:-490px;
+			height:100px;
+		}
+		
+		
+	/* MENU PRINCIPAL -------------------------------------------------------*/		
+	
+		
+		#sep {
+			width:939px;
+			height:20px;
+			margin:0px;
+			background-color:#eee;
+			position: relative; 
+			left:50%;
+			margin-left: -470px;
+		}
+		
+		
+		#sep ul{
+			
+			list-style-type: none;
+			position:absolute;
+			left:270px;
+			
+		}
+		
+		#sep ul li {
+			float:left;
+		}
+		
+		
+		#case-menu {
+			
+			font-size:11px;
+			height:20px;
+			line-height:19px;
+			color:#FFF;
+			background-color: #3399dd;
+			padding:0 15px 0px 15px;
+			-moz-box-shadow: 0px 20px 10px -10px rgba(255,255,255,0.3) inset;
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#3399dd), to(#0170ba));
+			
+		}
+		
+
+		
+		#sep ul li a {
+			font-size:11px;
+			color:#333;
+			text-decoration:none;
+			height:20px;
+			line-height:19px;
+			padding: 0px 15px 0px 15px;
+			float:left;
+			text-align:center;
+			border-style:dotted;
+			border-color: #ddd;
+			border-width:0px 1px 0px 0px;				
+		}
+		
+		
+		#sep ul li a:hover {
+			border-style:solid;
+			border-color: #eee;
+			border-width:0px 1px 0px 0px;
+			height:20px;
+			color:#fff;
+			text-decoration:none;
+			background-color:#3399dd;
+			-moz-box-shadow: 0px 20px 10px -10px rgba(255,255,255,0.3) inset;
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#3399dd), to(#0170ba));
+		}
+
+	/*--TEXTE ET PARAGRAPHES ------------------------------------------------------------------------------------------*/	
+			
+	/* texte descriptif */
+	
+	#main .text {
+		font-size:11px;
+		line-height: 18px;
+	}
+	
+	.text-pres {
+		margin-top:2px;
+		border-width:0px 0px 1px 0px;
+		border-style:dashed;
+		border-color: #ccc;
+		padding:1px 1px 7px 1px;
+		margin-bottom: 20px;
+	}
+	
+	.bold {font-weight:bold;}
+	.top {padding-left:1px;margin-left: 3px;}
+	
+	/* titres */
+	.t1 {
+		display:block;
+		background:#FFF url('pics/pucet1.png') center left no-repeat;
+		padding-left:15px;
+		color:#333;
+		font-size:16px;	
+		margin-bottom: 15px;
+		border-style: solid;
+		border-width: 0px 0px 1px 0px;
+		border-color: #eee;
+	}
+	
+	.t2 {
+		color:#FFCB7C;
+		font-size:11px;
+		font-weight: bold;
+		display:block;
+		background-color: #888;
+		padding:4px 0px 4px 7px;
+		margin-bottom: 10px;
+		
+ 		/*BORDS ARONDIS */
+ 		-moz-border-radius : 0.4em;
+ 		-webkit-border-radius : 0.4em;
+        border-radius : 0.4em;
+        /* DEGRADE */
+        -moz-box-shadow: 0px 20px 10px -10px rgba(255,255,255,0.3) inset;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#AAA), to(#888));
+        
+    }
+	
+	.line-title {
+		position:relative;
+		top:1px;
+	}
+	
+	
+	/* LISTES */
+	
+	.list-serv {
+		list-style-type:none;
+		margin:5px 0px 10px 10px;
+		font-size:11px;
+		
+	}
+	
+	.list-serv li{
+		padding-left:10px;
+		background:#FFF url('pics/pucem.jpg') center left no-repeat;
+		height:17px;
+	}
+	
+	
+	/* PIED DE PAGE ---------------------------------------------------------------------------------------*/
+	
+	#footer {
+		overflow: hidden;
+		clear:both;
+		background-color:#333;
+		height:40px;
+		line-height:60px;
+		font-size:10px;
+		text-align:center;
+		/*font-family:"Century Gothic";*/
+		color:#FFF;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+	#footer a {
+		text-decoration:none;
+		color:#ccc;
+		margin-left : 3px;
+		margin-right: 3px;
+	}
+	
+	#footer a:hover {
+		text-decoration:underline;
+		color:#FFF;
+	}
+ 	.img-footer {
+ 		float:left;
+ 		position:relative;
+ 		top:1px;
+ 		margin-left: 2px;
+ 	}
+ 
+ 
+ /* MISE EN PAGE REALISATIONS ----------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ /* elements de banniere principale*/
+ 	.ban-workw {
+ 		width:648px;
+ 		height:247px;
+ 		background:#FFF url('pics/fond-rea.png') top left no-repeat;
+ 		margin-bottom: 20px;
+ 		overflow:hidden;
+ 	}
+ 	.ban-workp {
+ 		width:648px;
+ 		height:247px;
+ 		background:#FFF url('pics/fond-rea-print.png') top left no-repeat;
+ 		margin-bottom: 20px;
+ 		overflow:hidden;
+ 	}
+ 	.ban-worko {
+ 		width:648px;
+ 		height:247px;
+ 		background:#FFF url('pics/fond-rea-off.png') top left no-repeat;
+ 		margin-bottom: 20px;
+ 		overflow:hidden;
+ 	}
+ 	
+ 	.ban-workw .imgt, .ban-workp .imgt, .ban-worko .imgt {
+ 		height:238px;
+ 		width:284px;
+ 		position:relative;
+ 		top:7px;
+ 		left:7px;
+ 		overflow:hidden;
+ 	}
+ 	
+ 	.ban-actu {
+ 		position:relative;
+ 		left:50%;
+ 		margin-left: -425px;
+ 		width:850px;
+ 		height:200px;
+ 		background:#FFF url('pics/fond-actu.png') top left no-repeat;
+ 		margin-bottom: 25px;
+ 		overflow:hidden;
+ 	}
+ 	
+ 	.ban-actu .imgt{
+ 		height:183px;
+ 		width:482px;
+ 		position:relative;
+ 		top:9px;
+ 		left:4px;
+ 		overflow:hidden;
+ 	}
+ 	
+ 	/* HACK IE 6 *************/
+ 	* html .imgt {
+ 		top : -150px;
+ 	}
+ 	
+ 	
+ 	/*************************/
+	.desc {
+ 		float:right;
+ 		width:330px;
+ 		margin-right: 20px;
+  	}
+ 
+ 	.desc p{
+ 		font-size: 11px;
+ 		margin-top:5px;
+ 		line-height:15px;
+ 		text-align: justify;
+ 	}
+ 	.desc a{
+ 		color:#222;
+ 		text-decoration:none;
+ 	}
+ 	.desc a:hover{
+ 		color:#555;
+ 		text-decoration:underline;
+ 	}
+ 	.ban-workw .ban-link, .ban-workp .ban-link, .ban-worko .ban-link {
+		position:relative;
+		top:220px;
+		left:86%;
+		font-weight: bold;
+	}
+	.ban-actu .ban-link {
+		position:relative;
+		top:170px;
+		text-align: right;
+		color:#CCC;
+		font-weight: bold;
+	}
+	
+	.ban-actu .ban-link a:hover {
+		text-decoration:underline;
+		color:#111;
+	
+	}
+	
+	.ban-workw .ban-link a:hover, .ban-workp .ban-link a:hover, .ban-worko .ban-link a:hover{
+		text-decoration:none;
+		color:#FFF;
+	}
+ 	
+/* DIFFERENTS BLOCS DU CONTENU */
+
+/* TEXTE ACCUEIL */
+.text-intro{
+	width:220px;
+	float:left;
+}
+
+
+/* MENU */
+#menu-rea {
+	margin-top: 15px;
+	list-style-type: none;
+	text-align:left;
+}
+
+#menu-rea li {
+	margin-top: 5px;
+	font-size:10px;
+	color:#555;
+}
+
+#menu-rea #m-print a{
+	display:block;
+	width:120px;
+	height:22px;
+	background:url('pics/m_print.jpg') no-repeat 0 0;
+}
+
+#menu-rea #m-print a:hover{
+	background:url('pics/m_print.jpg') no-repeat 0 -22px;
+}
+
+#menu-rea #m-web a{
+	display:block;
+	width:120px;
+	height:22px;
+	background:url('pics/m_web.jpg') no-repeat 0 0;
+}
+
+#menu-rea #m-web a:hover{
+	background:url('pics/m_web.jpg') no-repeat 0 -22px;
+}
+#menu-rea #m-off a{
+	display:block;
+	width:120px;
+	height:22px;
+	background:url('pics/m_offline.jpg') no-repeat 0 0;
+}
+
+#menu-rea #m-off a:hover{
+	background:url('pics/m_offline.jpg') no-repeat 0 -22px;
+}
+#menu-rea #m-tout a{
+	display:block;
+	width:120px;
+	height:22px;
+	background:url('pics/m_tout.jpg') no-repeat 0 0;
+}
+
+#menu-rea #m-tout a:hover{
+	background:url('pics/m_tout.jpg') no-repeat 0 -22px;
+}
+
+
+/* CONTENU */
+.cont-rub{
+	float:left;
+	width:650px;
+	margin-left:25px;
+}
+ .title-rub {
+ 	display:block;
+ 	color:#666;
+ 	font-size:12px;
+ 	padding: 0px 15px 0px 0px;
+ 	margin-bottom: 5px;
+ 	text-align: right;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT----------------------------------------------------------------------------------*/
+ 
+ .form {
+ 	margin-left: 2px;
+ }
+ 
+ .form td{
+ 	font-size:11px;
+ }
+ .form tr {
+	 margin-bottom: 3px;
+ }
+ 
+ .form input, .form textarea{
+ 	border:0px;
+ 	background-color:#ecc09c;
+ 	padding:3px;
+ 	font-size:11px;
+ 	font-weight: bold;
+ }
+
+ .form .intit{
+ 	border-width:1px 0px 1px 0px;
+ 	border-style:dotted;
+ 	border-color:#EEE;
+ 	width:300px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

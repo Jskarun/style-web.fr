@@ -1,0 +1,529 @@
+		* {
+			margin:0px;
+			padding:0px;
+			
+	
+		}
+	
+	/* BLOCS PRINCIPAUX */
+		
+		#coteD {
+			width:50%;
+			background: white url('pics/cote-d.jpg') repeat-y top left;
+		}
+		#coteG {
+			width:50%;
+			background: white url('pics/cote-g.jpg') repeat-y top right;
+		}
+	/************************/
+	
+		a.lien-bloc {
+			text-decoration:none;
+			border-width:0px;
+		}
+		
+				
+		#bloc-titre {
+			width:1100px;
+			position:relative;
+			left:50%;
+			margin-left:-550px;
+			height:100px;
+		}
+		
+				
+		#sep {
+			width:100%;
+			height:65px;
+			margin:0px 0px -10px 0px;
+			background: white url('pics/separation') repeat-x bottom left;
+		}
+		
+		
+		#sep ul li {
+			float:left;
+		}
+		
+		#case-logo {
+			padding-top:2px;
+			height:40px;
+			line-height:40px;
+			
+		}
+		#case-menu {
+			border-width:0px 1px 0px 0px;
+			border-color:#bbb;
+			border-style:solid;
+			padding-left:13px;
+			padding-right:13px;
+			font-size:11px;
+			height:40px;
+			line-height:23px;
+			color:#FFF;
+			font-weight: bold;
+			background-color: #555;
+			font-family: trebuchet ms,arial;
+		}
+		#case-back {
+			border-width:0px 1px 0px 0px;
+			border-color:#bbb;
+			border-style:solid;
+			padding-left:13px;
+			padding-right:13px;
+			font-size:11px;
+			height:40px;
+			line-height:23px;
+			color:#FFF;
+			font-weight: bold;
+			background-color: #888;
+			font-family: trebuchet ms,arial;
+			
+		}
+
+		
+		#sep ul li a {
+			border-width:0px 1px 0px 0px;
+			border-color:#bbb;
+			border-style: solid;
+			font-size:11px;
+			color:#222;
+			text-decoration:none;
+			height:40px;
+			line-height:23px;
+			padding: 0px 15px 0px 15px;
+			float:left;
+			font-family: trebuchet ms,arial;
+			font-weight: bold;
+			text-align:center;
+			
+		}
+		
+		#sep ul{
+			list-style-type: none;
+			width:550px;
+			position:relative;
+			left:50%;
+			margin-left:-100px;
+		}
+		
+		
+				
+		#sep ul li a:hover {
+			height:40px;
+			font-size:11px;
+			color:#fff;
+			text-decoration:none;
+			background-color:#111;
+			
+		}
+		
+		#bloc-central {
+			text-align:center;
+			font-size:10px;
+			font-family: verdana,arial;
+			width:1000px;
+			
+			
+		}
+		
+			
+		.bloc-config {
+			text-align:center;
+			margin-right:5px;
+			margin-left:5px;
+			margin-top: 40px;
+		}
+		
+		.blocs {
+			text-align:center;
+			height:710px;
+			padding:0px 50px 0px 50px;
+			}
+		
+		.blocs table {
+			margin-top:50px;
+			 
+		}
+		
+		.blocs table td {
+			
+		}
+		
+		.nom {
+			font-size:15px;
+			font-weight:bold;
+			color:#4455DD;
+		
+		}
+		
+		.photo {
+			
+			margin:10px 0px 0px 0px;
+			
+		}
+		
+		.photo-select {
+			float:left;
+			margin-left:30px;
+			margin-top:25px;
+		
+		}
+		
+		.prix {
+			font-size:20px;
+			color:#111;
+		
+		}
+		
+		#prix-marge {
+			font-size:14px;
+			padding-right: 10px;
+		}
+		
+		#prix-var {
+			font-weight:bold;
+			font-size:12px;
+		}
+		
+		
+		
+		#pied {
+			padding-top:5px;
+			font-size:10px;
+			font-family:verdana, arial;
+			background-color:#DDD;
+			height:20px;
+			color:#888;
+		}
+		
+		#pied a {
+			
+			color:#666;
+			text-decoration:none;
+		
+		}
+		
+		#pied a:hover{
+			
+			text-decoration:underline;		
+		}
+		
+		.bloc-options {
+			text-align: left;
+			float:left;
+			margin-left:45px;
+			margin-top: 40px;
+			width:650px;
+		}
+		
+		.guide {
+			width:auto;
+			text-align:justify;
+			color:#333;
+			margin-left:10px;
+			line-height: 17px;
+		
+		}
+		
+		
+		.guide img , #prix-mobile img, .menu-config img {
+			position:relative;
+			top:2px;
+		
+		}
+		
+		.bloc-famille {
+			background-color:#fff;
+			text-align:left;
+			margin-left:10px;
+			padding:10px 10px 10px 10px;
+			border-width: 1px 2px 1px 1px;
+			border-style: solid;
+			border-color:  #bbb;
+			width:610px;
+			margin-bottom: 35px;			
+		}
+		
+				
+		.no-options {
+			font-style:italic;
+		}
+		
+		.entete-opt {
+			clear:both;
+			padding-top: 3px;
+			height:15px;
+			width:150px;
+			text-align: center;
+			background: white url('pics/bg-element.jpg') no-repeat top left;
+			color:#003399;
+				
+		}
+		
+		.pied-prix {
+			position:relative;
+			left:40px;
+			padding-top:22px;
+			width:425px;
+			font-size:12px;
+			text-align:right;
+			padding-right: 30px;
+			padding-left: 30px;
+			height:78px;
+			background: #fff url('pics/bg-piedprix.jpg') no-repeat top center;
+		}
+		
+		#display-prix {
+			font-family: verdana,arial;
+			color:#225599;
+			font-size:11px;
+		}
+		
+		.ligne-element {
+			margin-top:5px;
+		}
+		
+		
+		.ligne-element input {
+			vertical-align: middle;
+			position:relative;
+			top:-2px;
+		}
+		
+		.affPht {
+			color:#3366AA;
+		}
+		
+		.affPttc {
+			font-weight:bold;
+		}
+		
+		#maskmarg {
+			margin-left:20px;
+			font-size: 10px;
+		}
+		
+		.barre-devis {
+			display: none;
+			
+		}
+		
+		#lien-refresh {
+			height:30px;
+			line-height:30px;
+			padding-left:15px;
+		}
+		
+		#lien-refresh img {
+			position:relative;
+			top:2px;
+			left:0px;
+			margin-left:4px;
+			margin-right:4px;
+		}
+		
+				
+		.img-screen{
+			border:1px solid #888;
+			margin-bottom:25px;
+		}
+		
+		.text-sc {
+			text-align:justify;
+			margin-left: 5px;
+			padding:0px 17px 0px 10px;
+			line-height: 16px;
+		}
+		
+		.text-sc:first-letter {
+			font-size:14px;
+		}
+		
+		
+		.infobulle {
+			display:none;
+			position:absolute;
+			border:1px solid #CCC;
+			background-color: #FFF;
+			z-index: 1;
+		}
+		
+		
+		.encart {
+			float:left;
+			width:250px;
+			background-color:#BBB;
+			padding:10px;
+			margin-left:15px;
+			margin-right:25px;	
+			text-align: left;
+			margin-bottom: 20px;
+				
+		}
+		
+		#form-contact{
+			border: 1px dotted #CCC;
+			padding:10px;
+		}
+		
+		#form-contact td{
+			text-align:left;
+		}
+		
+		#form-contact td input{
+			font-weight:bold;
+			color:#FFF;
+			background-color:#444;
+			padding:2px;
+			border:0;
+		}
+		
+		#form-contact #bout-envoi input {
+			background:none;
+			border:0;
+		}
+		
+/* CLASSES ADMIN */
+
+		.lien-admin {
+			text-decoration: none;
+			color:#333;
+		}
+		
+		.lien-admin:hover {
+			text-decoration: underline;
+			color:#000;
+		}
+		.form-admin {
+			border-width:2px;
+			border-style:dotted;
+			border-color:#ccc;
+			padding:15px;
+			text-align: center;
+		}
+		
+		#form-mod {
+			width:auto;
+			margin: 0px auto;
+			margin-top: 10px;
+		}
+		
+		#form-aj {
+			margin: 0px auto;
+			margin-top: 10px;
+		}
+
+		#form-aj th {
+			padding:10px;
+			font-weight: normal;
+		}
+
+		#form-mod td input, #form-aj td input{
+			font-size:10px;
+			background-color:#555;
+			color:#FFF;
+			font-weight:bold;
+			border-width:0px;
+			padding:3px;
+		}
+		
+		#form-mod td, #form-aj td{
+			
+			border-width:0px 0px 1px 0px;
+			border-style: solid;
+			border-color: #ccc;
+			text-align:left;
+		}
+		
+		#form-opt td{
+			background-color:#EEE;
+			text-align:left;
+			padding:3px;
+			color:#000;
+		}
+		
+		#form-opt .td-opt{
+			background-color:#b44;
+			text-align:left;
+			padding:3px;
+			color:#FFF;
+		}
+		
+		#form-opt .int{
+			font-weight:bold;
+			background-color:#333;
+			color:#EEE;
+		}
+		
+		#form-opt .nom-td{
+			font-weight:bold;
+			background-color:#559966;
+			color:#fff;
+			text-align:center;
+		}
+		
+		#form-mod .int{
+			width:150px;
+		}
+		
+				
+		#form-mod td .bout-valid, #form-aj td .bout-valid {
+			background-color:#000;
+			color:#FFF;
+			font-weight:bold;
+		}
+		
+		#form-mod .td-bout-val, #form-aj .td-bout-val {
+			text-align: right;
+			border-width: 0px;
+		}
+		
+		.title-form {
+			text-align:left;
+			color:#444;
+			background-color:#fff;
+			
+		}
+		
+		.menu-config {
+			clear:both;	
+			text-align:center;
+			border: 1px solid #ccc;
+			padding:2px;
+			margin-top: 0px;
+			line-height: 18px;
+		}
+		
+		.act-config {
+			margin-top: 20px !important;
+			margin-top: 10px;
+			margin-bottom: 35px;
+		}
+		
+		.act-config img {
+			position:relative;
+			top:2px;
+			margin-left: 10px;
+		}
+		
+		.menu-config a, .act-config a {
+			text-decoration: none;
+			color:#666;
+		}
+		
+		.menu-config a:hover, .act-config a:hover {
+			color:#000;
+		}
+		
+/***** INSTRUCTIONS ***** */
+		
+		#form-aj #inst-prix, #form-aj #inst-garantie {
+			display: none;
+			color: #A22;
+			border-width: 0px;
+			font-style: italic;
+			font-weight: bold;
+			text-align: right;
+		}
+
+		

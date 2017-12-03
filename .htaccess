@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+# Redirection des rubriques :
+RewriteRule ^references-([^-]*)\.php$ /main.php?rub=rea&spec=$1 [L]
+RewriteRule ^webmaster-integrateur-pontarlier\.php$ /main.php?rub=home [L]
+RewriteRule ^dernieres-realisations\.php$ /main.php?rub=actu [L]
+RewriteRule ^references-web-print\.php$ /main.php?rub=rea [L]
+RewriteRule ^competences-services\.php$ /main.php?rub=services [L]
+RewriteRule ^contact\.php$ /main.php?rub=contact [L]

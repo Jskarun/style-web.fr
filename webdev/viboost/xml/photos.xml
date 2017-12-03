@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding= "UTF-8" ?>
+<photos>
+<photo ref="01.jpg" titre="Module et connecteur alimentation" description="ipsum"/>
+<photo ref="02.jpg" titre="Branchement IDE" description="ipsum"/>
+<photo ref="03.jpg" titre="Gros plan Viboost" description="ipsum"/>
+<photo ref="04.jpg" titre="Gros plan connecteur" description="ipsum"/>
+<photo ref="05.jpg" titre="Packaging ViBoost" description="ipsum"/>
+</photos>
+<presse>
+<t1><![CDATA[> Les premières parutions dans la presse sont à venir.<br/>> Seront disponibles les articles parus dans <b>L'acheteur informatique</b> et <b>Micro hebdo</b>.]]></t1>
+<t2> <![CDATA[ <u>Dossier de Presse complet du ViBoost</u> <br/><a href='docs/Dossier_de_presse_vi_boost.pdf'>  > Télécharger le dossier 
+</a>]]>
+</t2>
+</presse>

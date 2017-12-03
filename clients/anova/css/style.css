@@ -1,0 +1,571 @@
+/**/
+/****** GENERAL *****/
+/**/
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+img {
+	border:0;
+}
+
+body {
+	background:#AAA url('../images/bg_flower.jpg') top left;
+	font-family: 'Trebuchet MS', 'Verdana', 'Arial';
+}
+
+#notipad {
+	display:none;
+}
+/**/
+/****** POSITIONNEMENT DES BLOCS ******************************************************/
+/**/
+
+#enter {
+	width:610px;
+	position:relative;
+	left:50%;
+	margin-left: -305px;
+}
+#enter #roll{
+	display: block;
+	height:73px;
+	background: url('../images/enter_site.jpg') 0px 0px no-repeat;
+}
+
+#enter #roll:hover{
+	background: url('../images/enter_site.jpg') 0px -73px no-repeat;
+}
+
+
+#tab-header, #tab-main {
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+
+#tab-main #mg, #tab-main #md, #tab-header #md-head,  #tab-header #mg-head{
+	width:30%;
+	min-width: 100px;
+}
+
+#bg-main-menu {
+	background: url('../images/rp_ruban.png') top left repeat-x;
+	height:53px;
+	width:100%;
+	min-width: 1240px;
+
+}
+
+
+
+#insert-bg {
+	position:relative;
+	width:1038px;
+	height:53px;
+	left:50%;
+	margin-left:-518px;
+	background:url('../images/bg_menu.jpg') top left no-repeat ;
+}
+
+
+
+/**/
+/****** MENU PRINCIPAL ***********************************************************/
+/**/
+
+#bg-main-menu ul {
+	list-style-type: none;
+	width:600px;
+	position:relative;
+	left:120px;
+	top:7px;
+}
+
+#bg-main-menu ul li{
+	float:left;
+}
+
+#bg-main-menu ul li a{
+	display :block;
+	height:30px;
+}
+
+/*FASHION*/
+#bg-main-menu ul li #fashion{
+	width:100px;
+	background: url('../images/fashion.jpg') 0 0px no-repeat;
+}
+#bg-main-menu ul li #fashion_on{
+	width:100px;
+	background: url('../images/fashion.jpg') 0 -31px no-repeat;
+}
+#bg-main-menu ul li #fashion:hover {
+	background: url('../images/fashion.jpg') 0px -31px no-repeat;
+}
+
+
+
+/*ACTING*/
+#bg-main-menu ul li #acting{
+	width:100px;
+	background: url('../images/acting.jpg') 0 0 no-repeat;
+}
+#bg-main-menu ul li #acting_on{
+	width:100px;
+	background: url('../images/acting.jpg') 0 -31px no-repeat;
+}
+#bg-main-menu ul li #acting:hover {
+	background: url('../images/acting.jpg') 0px -31px no-repeat;
+}
+
+
+/*COMPOSITE*/
+#bg-main-menu ul li #composite{
+	width:120px;
+	background: url('../images/composite.jpg') 0 0 no-repeat;
+}
+#bg-main-menu ul li #composite_on{
+	width:120px;
+	background: url('../images/composite.jpg') 0 -31px no-repeat;
+}
+#bg-main-menu ul li #composite:hover {
+	background: url('../images/composite.jpg') 0px -31px no-repeat;
+}
+
+
+/*BIO*/
+#bg-main-menu ul li #bio{
+	width:70px;
+	background: url('../images/bio.jpg') 0 0 no-repeat;
+}
+#bg-main-menu ul li #bio_on{
+	width:70px;
+	background: url('../images/bio.jpg') 0 -31px no-repeat;
+}
+#bg-main-menu ul li #bio:hover {
+	background: url('../images/bio.jpg') 0px -31px no-repeat;
+}
+
+/*CONTACT*/
+#bg-main-menu ul li #contact{
+	width:100px;
+	background: url('../images/contact.jpg') 0 0 no-repeat;
+}
+#bg-main-menu ul li #contact_on{
+	width:100px;
+	background: url('../images/contact.jpg') 0 -31px no-repeat;
+}
+#bg-main-menu ul li #contact:hover {
+	background: url('../images/contact.jpg') 0px -31px no-repeat;
+}
+
+/*****************************************************************************************************/
+
+
+
+
+/* CONTENU ***********************************************************************/
+
+/* LIENS POLA FIRST PAGE ***********************************/
+
+#content #lien-romance {
+	background : url('../images/lien_romance.jpg') 0px -61px no-repeat;
+	display:block;
+	height:61px;
+	width:209px;
+}
+#content #lien-romance:hover {
+	background : url('../images/lien_romance.jpg') 0px 0px no-repeat;
+}
+
+#content #lien-underwear {
+	background : url('../images/lien_underwear.jpg') 0px -96px no-repeat;
+	display:block;
+	height:96px;
+	width:236px;
+}
+#content #lien-underwear:hover {
+	background : url('../images/lien_underwear.jpg') 0px 0px no-repeat;
+}
+
+#content #lien-fashion {
+	background : url('../images/lien_fashion.jpg') 0px -53px no-repeat;
+	display:block;
+	height:53px;
+	width:208px;
+}
+#content #lien-fashion:hover {
+	background : url('../images/lien_fashion.jpg') 0px 0px no-repeat;
+}
+
+#content #lien-beauty {
+	background : url('../images/lien_beauty.jpg') 0px -79px no-repeat;
+	display:block;
+	height:79px;
+	width:187px;
+}
+#content #lien-beauty:hover {
+	background : url('../images/lien_beauty.jpg') 0px 0px no-repeat;
+}
+
+
+
+/*/ TEXTES IMAGES CONTENU /*/
+
+#tab-main #content-area {
+	background: url('../images/content-bg.jpg') top left no-repeat;
+	width:904px;
+	height:453px;
+	padding-top: 10px;
+}
+
+#tab-main #content-area #ssmenu {
+	height:30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+	
+}
+
+#tab-main #content-area #ssmenu ul {
+	margin-left: 45px;
+	margin-right: 85px;
+	list-style-type: none;
+}
+#tab-main #content-area #ssmenu ul li {
+	background:url('../images/star.gif') bottom left no-repeat;
+	float:left;
+	margin-right: 10px;
+	font-size: 11px;
+	padding-left: 20px;
+	height:10px;
+	line-height: 10px;
+}
+#tab-main #content-area #ssmenu ul .deco {
+	background:none;
+	float:right;
+	margin-right: 10px;
+	font-size: 11px;
+	
+	height:10px;
+	line-height: 10px;
+}
+#tab-main #content-area #ssmenu ul .deco a{
+	text-decoration: none;
+	color:#444;
+}
+#tab-main #content-area #ssmenu ul .deco a:hover{
+	text-decoration: underline;
+	color:#745b61;
+}
+
+/* SOUS MENU GALLERIES et autres */
+
+#tab-main #content-area #ssmenu ul li .a_off {
+	font-family: 'Trebuchet MS';
+	color:#bcacaf;
+	text-decoration: none;
+	font-size: 12px;
+}
+#tab-main #content-area #ssmenu ul li .a_on {
+	font-family: 'Trebuchet MS';
+	color:#5a464b;
+	text-decoration: none;
+	font-size: 12px;
+}
+#tab-main #content-area #ssmenu ul li a:hover{
+	color:#222;
+}
+
+#tab-main #content-area .data{
+	clear:left;
+	overflow:hidden;
+	overflow-x:scroll;
+	white-space:nowrap;
+	width: 904px;
+	height : 400px;
+	padding-bottom: 15px;
+}
+
+#tab-main #content-area .data img{
+	cursor:pointer;
+}
+
+#tab-main #content-area .data p{
+	font-size: 11px;
+	color:#555;
+	margin-bottom: 5px;
+}
+
+/* PIED DE PAGE **********************************************************************/
+#content #footer {
+	background : url('../images/bg-footer.jpg') top left no-repeat;
+	width : 904px;
+	height : 18px;
+	
+}
+.footer-text {
+	color:#AAA;
+	text-align: center;
+	font-size: 10px;
+}
+
+.footer-text a {
+	color:#888;
+	text-decoration: none;
+}
+
+.footer-text a:hover {
+	color:#555;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+/* PAGE CONTACT */
+
+#tab-main #content-area #bloc-contact {
+	position:relative;
+	background: url('../images/bg-contact.jpg') top left no-repeat;
+	width:744px;
+	height:423px;
+	margin-left: 70px;
+}
+
+#tab-main #content-area #bloc-contact #tab-contact{
+	position:relative;
+	left:108px;
+	top:112px;
+	width:350px;
+}
+
+#tab-main #content-area #bloc-contact #tab-contact table{
+	border-spacing:13px;
+	border-collapse:separate;
+}
+
+#tab-main #content-area #bloc-contact #tab-contact table td .input-text {
+	border:0px;
+	background-color: #FFF;
+	padding:3px;
+	width:100px;
+}
+#tab-main #content-area #bloc-contact #tab-contact table .intersec {
+	width:50px;
+}
+#tab-main #content-area #bloc-contact #tab-contact table td textarea{
+	border:0px;
+	background-color: #FFF;
+	resize: none;
+	padding:3px;
+	width:300px;
+	height:90px;
+}
+#tab-main #content-area #bloc-contact #tab-contact table td{
+	font-size:10px;
+	color:#555;
+}
+
+/* PAGE BIO */
+
+
+#tab-main #content-area #bloc-bio {
+	position:relative;
+	background: url('../images/bg_bio.jpg') top left no-repeat;
+	width:807px;
+	height:387px;
+	margin-left: 80px;
+	margin-top: 15px;
+}
+
+
+#tab-main #content-area #bloc-bio #text {
+	
+	width:565px;
+	height:290px;
+	position:relative;
+	top:55px;
+	left:50px;
+}
+
+#tab-main #content-area #bloc-bio #text p {
+	text-align:left;
+	line-height: 19px;
+	font-size: 12px;
+	color:#555;
+	margin-bottom: 5px;
+}
+
+/* PAGE COMPOSITE */
+#tab-main #content-area #bloc-composite {
+	margin-left: 70px;
+}
+
+
+#tab-main #content-area #bloc-composite #bloc-comp1 {
+	margin:0px;
+	float:left;
+	width:315px;
+	height:426px;
+	background: url('../images/bg-composite01.jpg') top left no-repeat;
+}
+
+#tab-main #content-area #bloc-composite #bloc-comp1 p {
+	position:relative;
+	top:100px;
+	left:50px;
+	text-align:left;
+	font-size: 12px;
+	line-height: 20px;
+	color:#745b61;
+}
+#tab-main #content-area #bloc-composite #bloc-comp1 p a {
+	font-size: 11px;
+	color:#745b61;
+	text-decoration: none;
+}
+#tab-main #content-area #bloc-composite #bloc-comp1 p a:hover{
+	text-decoration: underline;
+}
+#tab-main #content-area #bloc-composite #bloc-comp2 {
+	float:left;
+	width:433px;
+	height:426px;
+	background: url('../images/bg-composite02.jpg') top left no-repeat;
+}
+
+
+
+
+
+
+
+
+/* BOUTONS SUBMIT */
+.submit {
+	height:50px;
+	width:90px;
+	background:#FFF url('../images/bout-send-log.jpg') 0px 0px no-repeat;
+	cursor: pointer;
+	border:0px;
+}
+.submit:hover {
+	background:#FFF url('../images/bout-send-log.jpg') 0px -50px no-repeat;
+}
+.submit1 {
+	margin-left: 350px;
+	margin-top: 15px;
+	height:63px;
+	width:114px;
+	background:#FFF url('../images/bout-send.jpg') 0px 0px no-repeat;
+	cursor: pointer;
+	border:0px;
+}
+.submit1:hover {
+	background:#FFF url('../images/bout-send.jpg') 0px -63px no-repeat;
+}
+/**/
+
+.info-message {
+	font-size:10px;
+	margin-left:120px;
+	text-align:left;
+}
+
+
+/* LOGIN ACCES UNDERWEAR */
+
+#tab-main #content-area #bloc-login {
+	background : url('../images/bg-login.jpg') top left no-repeat;
+	width : 790px;
+	height : 363px;
+	margin-left: 100px;
+	overflow: hidden;
+}
+#tab-main #content-area #bloc-login #tab-login {
+	position:relative;
+	top:80px;
+	left:75px;
+}
+
+#tab-main #content-area #bloc-login #tab-login form table {
+	border-collapse: separate;
+	border-spacing: 12px;
+}
+#tab-main #content-area #bloc-login #tab-login form td {
+	text-align: right;
+	font-size: 11px;
+	width:120px;
+}
+
+#tab-main #content-area #bloc-login #tab-login form td a{
+	color:#AAA;
+}
+#tab-main #content-area #bloc-login #tab-login form td a:hover{
+	color:#777;
+}
+
+#tab-main #content-area #bloc-login #tab-login form td input {
+	border:2px solid #ddd;
+	background-color: #FFF;
+	padding:2px;
+	width:90px;
+}
+
+/* FORMULAIRE DE DEMANDE ACCES */
+
+
+#tab-main #content-area #bloc-req {
+	background : url('../images/bg-req.jpg') top left no-repeat;
+	width : 658px;
+	height : 405px;
+	position:relative;
+	left:50%;
+	margin-left: -300px;
+	overflow: hidden;
+}
+#tab-main #content-area #bloc-req #tab-req {
+	position:relative;
+	top:50px;
+	left:75px;
+}
+
+#tab-main #content-area #bloc-req #tab-req form table {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+#tab-main #content-area #bloc-req #tab-req form td {
+	text-align: left;
+	font-size: 11px;
+	width:100px;
+}
+
+#tab-main #content-area #bloc-req #tab-req form td a{
+	color:#AAA;
+}
+#tab-main #content-area #bloc-req #tab-req form td a:hover{
+	color:#777;
+}
+
+#tab-main #content-area #bloc-req #tab-req form td input {
+	border:2px solid #ddd;
+	background-color: #FFF;
+	padding:2px;
+	width:100px;
+}
+
+#tab-main #content-area #bloc-req #tab-req form td textarea {
+	border:2px solid #ddd;
+	resize: none;
+	padding:2px;
+	width:220px;
+	height:90px;
+}
+
+
+

@@ -1,0 +1,7 @@
+AuthUserFile /var/www/nemo-fr/preconisation/.htaccess
+AuthGroupFile /dev/null
+AuthName "Fichiers"
+AuthType Basic
+<LIMIT GET POST>
+Require valid-user
+</LIMIT>

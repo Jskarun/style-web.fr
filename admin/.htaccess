@@ -1,0 +1,4 @@
+AuthName "Administration styleoweb.fr"
+AuthType Basic
+AuthUserFile "/volume1/web/styleoweb.fr/admin/.htpasswd"
+Require valid-user

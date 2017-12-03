@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+<title>[ StyleOWeb ] - Jonathan Escaravage - WebDesigner Freelance - Conception et Développement Multimédia</title> 
+<link>http://www.jonathan-escaravage.fr</link> 
+<description>News et mises à jour de mon portfolio de concepteur Web - Dernières réalisations </description> 
+<language>fr</language> 
+<copyright>J.Escaravage</copyright> 
+
+<image> 
+<title>Portfolio Jonathan Escaravage</title> 
+<url></url> 
+<link>http://www.jonathan-escaravage.fr/index.php?rub=rea</link> 
+</image>
+
+<item>
+<title>Nouvelle réalisation ¬ Movies Benelux</title>
+<link>http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</link>
+<guid isPermaLink="true">http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</guid>
+<description>Intégration et montage xhtml css</description>
+</item>
+
+<item>
+<title>Nouvelle réalisation ¬ La Tribu des créateurs</title>
+<link>http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</link>
+<guid isPermaLink="true">http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</guid>
+<description>Intégration et montage xhtml css</description>
+</item>
+
+<item>
+<title>Nouvelle réalisation ¬ Amandine Nova</title>
+<link>http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</link>
+<guid isPermaLink="true">http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</guid>
+<description>Intégration et montage xhtml css du site d'Amandine Nova mannequin</description>
+</item>
+
+
+<item>
+<title>Nouvelle réalisation ¬ Mundo-Latino</title>
+<link>http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</link>
+<guid isPermaLink="true">http://www.jonathan-escaravage.fr/main.php?rub=rea&spec=web</guid>
+<description>Réalisation complète (design, intégration et développement ) du site Mundo Latino, association proposant des cours de danses latines et africaines ainsi que des animations lors de soirées ( bars, casinos, festivals, etc ...)</description>
+</item>
+
+
+<item>
+<title>Changement de statut !</title>
+<link></link>
+<guid isPermaLink="true"></guid>
+<description>Depuis octobre 2010, j'ai décidé de devenir travailleur indépendant et proposer mes services dans la réalisation :<br/>
+	<b>- de sites web<br/>
+	- de logos<br/>
+	- d'affiches promotionnelles<br/>
+	- de flyers <br/>
+	- de divers supports de communication ( vidéo, photos, ...)<br/>
+	</b>Pour toute question ou demande de projet, <a href='index.php?rub=contact'>contactez moi</a>, nous en discuterons !</description>
+</item>
+
+
+
+
+
+
+

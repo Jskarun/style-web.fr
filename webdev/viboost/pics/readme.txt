@@ -1,0 +1,1 @@
+les formats d'image pour le mini ---> 50 * 50

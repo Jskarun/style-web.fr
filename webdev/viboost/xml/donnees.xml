@@ -1,0 +1,10 @@
+﻿<donnees>
+	<rubriques>
+		<rubrique titre="Pack Classic" texte="L’association de Windows Vista et du module VI.BOOST vous permettra d’améliorer les performances de votre PC de bureau jusqu'à 30% ! Il vous suffit de brancher VI.BOOST directement sur un port IDE(nappe de la carte mère) de votre PC !" sousDesc="Inclus dans l’offre : Bitdefender V10 antivirus-antispam OEM / Souris Microsoft® IntelliMouse Explorer 4.0 / Sacoche Amarina Matière nylon 600D" prix="79.90"/>
+		<rubrique titre="Pack Premium" texte="L’association de Windows Vista et du module VI.BOOST vous permettra d’améliorer les performances de votre PC de bureau de 30% et plus ! Il vous suffit de brancher VI.BOOST directement sur un port IDE(nappe de la carte mère) de votre PC !" sousDesc="Inclus dans l’offre : Microsoft Windows Vista™ Edition Familiale Premium (version OEM)/ Bitdefender V10 antivirus-antispam OEM / Souris Microsoft® IntelliMouse Explorer 4.0 / Sacoche Amarina Matière nylon 600D" prix="199.90"/>
+	</rubriques>
+	<news>
+		<news1 date="29/05/2007" contenu="Présentation du ViBoost à MONACO à l'occasion du salon MEDPI qui rassemble tous les professionnels de la grande distribution."/>
+		<news2 date="Début juin" contenu="Début de la campagne de Presse 2007"/>
+	</news>
+</donnees>
