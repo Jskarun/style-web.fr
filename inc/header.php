@@ -27,7 +27,7 @@ $pagetitre = array(
 
 
 <head>
-<title>TEST - Création site internet Pontarlier Doubs Franche-Comté [ • <?php echo $titre;?> • ] </title>
+<title>Création site internet Pontarlier Doubs Franche-Comté [ • <?php echo $titre;?> • ] </title>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
